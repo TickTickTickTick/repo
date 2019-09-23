@@ -32,7 +32,6 @@
 
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #eceeef;
   text-align: left;
 }
 
@@ -179,4 +178,10 @@ table {
 
 tr th:first-child {
     display: none;
+}
+
+td a::after {
+    content: "\f05a";
+    font-family: fontAwesome;
+    padding-left: 4px;
 }
