@@ -185,3 +185,7 @@ table {
     color: #fff;
     background-color: #212529;
 }
+
+tr th:first-child {
+    display: none;
+}
