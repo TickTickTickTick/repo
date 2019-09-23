@@ -40,6 +40,11 @@
   text-align: left;
 }
 
+.table-bordered th a,
+.table-bordered td a {
+  color: #FFF;
+}
+
 table {
     border-collapse: collapse;
 }
