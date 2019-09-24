@@ -188,4 +188,7 @@ td a::after {
 
 .responsive {
     width: 100%;
+/*  display: block;*/
+    max-width: 600px;
+/*  margin: 0 auto;*/
 }
