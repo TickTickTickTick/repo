@@ -230,11 +230,35 @@
 			
 
 				<br>
-				
-				
-<img src="https://raw.githubusercontent.com/TickTickTickTick/repo/master/azores-og.jpg" class="responsive">			
-				
-				
+
+ <!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/TickTickTickTick/repo/master/azores-og.jpg" alt="Caption 1" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/TickTickTickTick/repo/master/azores-og.jpg" alt="2" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/TickTickTickTick/repo/master/azores-og.jpg" alt="3" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/TickTickTickTick/repo/master/azores-og.jpg" alt="4" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div> 			
+			
 				
 				<p><em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
     		</div><!-- /.blurb -->
@@ -246,4 +270,16 @@
 			</ul>
 		</footer>
 	</body>
+	
+	<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+
 </html>
