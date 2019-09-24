@@ -186,6 +186,10 @@ td a::after {
     padding-left: 4px;
 }
 
+td a {
+    color: #222;
+}
+
 .responsive {
     width: 100%;
 /*  display: block;*/
