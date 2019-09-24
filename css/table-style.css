@@ -185,3 +185,7 @@ td a::after {
     font-family: fontAwesome;
     padding-left: 4px;
 }
+
+.responsive {
+    width: 100%;
+}
