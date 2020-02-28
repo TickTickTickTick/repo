@@ -24,7 +24,7 @@ a:hover {
     padding-bottom: 0;
 }
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -45,5 +45,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-Don't forget to commit the ne
