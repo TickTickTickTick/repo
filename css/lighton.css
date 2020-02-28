@@ -17,6 +17,7 @@
 
 html, body {
   height: 100%;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 /*Wrapper*/
@@ -24,12 +25,14 @@ html, body {
   padding: 80px 40px;
   width: 100%;
   height: 100%;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 /*Headline*/
 h2 {
   text-align: center;
-  font: 70px Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
   margin-top: 60px;
   margin-bottom: 60px;
 }
