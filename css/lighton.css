@@ -142,18 +142,9 @@ footer {
     body{
         -webkit-text-size-adjust:none;
         font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-        padding:5px;
     }
 }
 
 @media screen and (max-device-width: 480px){
-    body{}
-    div{
-        clear:both!important;
-        display:block!important;
-        width:100%!important;
-        float:none!important;
-        margin:0!important;
-        padding:0!important;
-    }
+
 }
