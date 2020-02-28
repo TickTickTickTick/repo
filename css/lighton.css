@@ -35,7 +35,7 @@ h2 {
 }
 
 h2:before {
-  content: "Yes, "
+  content: "Yes, you can kinda "
 }
 
 /*Feature Paragraphs*/
@@ -104,7 +104,7 @@ input#lightswitch:checked + .main h2 {
 }
 
 input#lightswitch:checked + .main h2:before {
-  content: "No, "
+  content: "No, you can't "
 }
 
 input#lightswitch:checked + .main p {
