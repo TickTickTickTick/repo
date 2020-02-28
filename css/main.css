@@ -1,7 +1,3 @@
-html {
-  height: 100%;
-}
-
 body {
     margin: 60px auto;
     width: 90%;
@@ -10,11 +6,6 @@ body {
     -ms-transition: .9s ease;
     -o-transition: .9s ease;
     height: 100%;
-}
-
-.container {
-  width: 100%;
-  height: 100%;
 }
 
 nav ul, footer ul {
@@ -61,73 +52,4 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
-
-/*Sizing & Transition*/
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-* {
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-/*Headline*/
-
-h1:before {
-  content: " On"
-}
-
-/*Feature Paragraphs*/
-
-.features:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/*Light Switch*/
-label {
-  display: block;
-  height: 25px;
-  width: 100px;
-  background: #eee;
-  text-align: center;
-  margin: 20px 0;
-  position: fixed;
-}
-
-label:hover {
-  background: #ddca7e;
-  color: #fff;
-  cursor: pointer;
-}
-
-input#lightswitch {
-   position: absolute;
-   top: -9999px;
-   left: -9999px;
-}
-
-/*Switched Off*/
-input#lightswitch:checked + .container {
-  background: #222;
-}
-
-input#lightswitch:checked + .container h1 {
-  color: #ddca7e;
-}
-
-input#lightswitch:checked + .container h1:before {
-  content: " Off"
-}
-
-input#lightswitch:checked + .container p {
-  color: #aaa;
 }
