@@ -71,8 +71,6 @@ label {
   height: 25px;
   width: 100px;
   background: #eee;
-  text-align: center;
-  font: 14px/25px Helvetica, Arial, sans-serif;
   margin: 20px 0;
   position: fixed;
 }
@@ -84,9 +82,7 @@ label:hover {
 }
  
 input#lightswitch {
-   position: absolute;
-   top: -9999px;
-   left: -9999px;
+
 }
 
 input#lightswitch:checked + .main {
@@ -98,11 +94,11 @@ input#lightswitch:checked + .main {
   background: #222;
 }
  
-input#lightswitch:checked + .main h2 {
+input#lightswitch:checked + .main h1 {
   color: #ddca7e;
 }
  
-input#lightswitch:checked + .main h2:after {
+input#lightswitch:checked + .main h1:before {
   content: "No"
 }
  
@@ -110,6 +106,3 @@ input#lightswitch:checked + .main p {
   color: #aaa;
 }
  
-input#lightswitch:checked + .main > .headerimage {
-  border: 8px solid #fff;
-}
