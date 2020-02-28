@@ -28,6 +28,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  min-height: 950px;
 }
 
 /*Headline*/
