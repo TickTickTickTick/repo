@@ -103,7 +103,7 @@ input#lightswitch:checked + .main h2 {
   color: #ddca7e;
 }
 
-input#lightswitch:checked + .main h2:after {
+input#lightswitch:checked + .main h2:before {
   content: "No, "
 }
 
