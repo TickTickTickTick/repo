@@ -12,7 +12,7 @@ body {
     height: 100%;
 }
 
-.main {
+.container {
   width: 100%;
   height: 100%;
 }
@@ -85,14 +85,6 @@ h1:before {
 }
 
 /*Feature Paragraphs*/
-.features {
-}
-
-.features p {
-}
-
-.last {
-}
 
 .features:after {
   content: "";
@@ -124,18 +116,18 @@ input#lightswitch {
 }
 
 /*Switched Off*/
-input#lightswitch:checked + .main {
+input#lightswitch:checked + .container {
   background: #222;
 }
 
-input#lightswitch:checked + .main h1 {
+input#lightswitch:checked + .container h1 {
   color: #ddca7e;
 }
 
-input#lightswitch:checked + .main h1:before {
+input#lightswitch:checked + .container h1:before {
   content: " Off"
 }
 
-input#lightswitch:checked + .main p {
+input#lightswitch:checked + .container p {
   color: #aaa;
 }
