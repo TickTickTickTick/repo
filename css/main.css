@@ -1,3 +1,21 @@
+
+/*Sizing & Transition*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
 body {
     margin: 60px auto;
     width: 90%;
@@ -31,6 +49,11 @@ h1 {
     font-size: 3.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+h1:before {
+  content: "Yes"
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
