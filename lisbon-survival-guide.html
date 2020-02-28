@@ -37,8 +37,8 @@
 	
 		<nav>
     		<ul>
-        		<li><a href="#">Don't Click</a></li>
-	        	<li><a href="#">Don't Do it</a></li>
+        		<li><a href="#" value="black" class="black btn">Don't Click</a></li>
+	        	<li><a href="#" value="mediumSeaGreen" class="green btn">Don't Do it</a></li>
 			    <li><a href="#">I told you</a></li>
     		</ul>
 		</nav>
@@ -60,5 +60,19 @@ viewer?embedded=true&url=https://raw.githubusercontent.com/TickTickTickTick/repo
         		<li><a href="https://github.com/TickTickTickTick">github.com/TickTickTickTick</a></li>
 			</ul>
 		</footer>
+		
+				<script>
+        
+        $('.btn').on('click', function() {
+    var valColor = $(this).val();
+
+    $('body').css({
+        background: valColor        
+    });
+});
+        
+        </script>
+		
+		
 	</body>
 </html>
