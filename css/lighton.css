@@ -21,7 +21,7 @@ html, body {
 
 /*Wrapper*/
 .main {
-  padding: 20px;
+  padding: 80px 40px;
   width: 100%;
   height: 100%;
 }
@@ -29,13 +29,13 @@ html, body {
 /*Headline*/
 h2 {
   text-align: center;
-  text-transform: uppercase;
   font: 70px Helvetica, Arial, sans-serif;
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-h2:after {
-  content: " On"
+h2:before {
+  content: "Yes, "
 }
 
 /*Feature Paragraphs*/
@@ -104,7 +104,7 @@ input#lightswitch:checked + .main h2 {
 }
 
 input#lightswitch:checked + .main h2:after {
-  content: " Off"
+  content: "No, "
 }
 
 input#lightswitch:checked + .main p {
