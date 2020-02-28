@@ -41,7 +41,7 @@ h2 {
 }
 
 h2:before {
-  content: "Yes, you can kinda "
+  content: "Yes, you can kinda get it"
 }
 
 /*Feature Paragraphs*/
@@ -120,7 +120,7 @@ input#lightswitch:checked + .main h2 {
 }
 
 input#lightswitch:checked + .main h2:before {
-  content: "No, you can't "
+  content: "Now you don't deserve it!"
 }
 
 input#lightswitch:checked + .main p {
