@@ -1,10 +1,4 @@
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
+/*--- Main CSS here ---*/
 
 /*Sizing & Transition*/
 *, *:after, *:before {
@@ -119,11 +113,6 @@ input#lightswitch:checked + .main p {
   color: #aaa;
 }
 
-input#lightswitch:checked + .main > .headerimage {
-  background: url(http://lorempixum.com/900/400/city/4);
-  border: 8px solid #fff;
-}
-
 nav ul, footer ul {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -145,3 +134,26 @@ footer {
     padding-top: 20px;
     margin-top: 10px;
 }  
+
+/*------------------------------------*\
+	$IPHONE
+\*------------------------------------*/
+@media screen and (max-device-width: 480px){
+    body{
+        -webkit-text-size-adjust:none;
+        font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+        padding:5px;
+    }
+}
+
+@media screen and (max-device-width: 480px){
+    body{}
+    div{
+        clear:both!important;
+        display:block!important;
+        width:100%!important;
+        float:none!important;
+        margin:0!important;
+        padding:0!important;
+    }
+}
