@@ -75,13 +75,14 @@ h2:before {
 /*Light Switch*/
 label {
   display: block;
-  height: 50px;
-  width: 160px;
+  height: 40px;
+  width: 200px;
   background: #eee;
   text-align: center;
   font: 14px/25px Helvetica, Arial, sans-serif;
   margin: 20px 0;
   position: fixed;
+  padding: 8px
 }
 
 label:hover {
