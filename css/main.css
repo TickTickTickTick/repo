@@ -89,26 +89,28 @@ input#lightswitch {
    left: -9999px;
 }
 
-/*Light Switch*/
-label {
-  display: block;
-  height: 25px;
-  width: 100px;
-  background: #eee;
-  text-align: center;
-  font: 14px/25px Helvetica, Arial, sans-serif;
-  margin: 20px 0;
-  position: fixed;
+input#lightswitch:checked + .main {
+  background: #222;
+}
+
+/*Switched Off*/
+input#lightswitch:checked + .main {
+  background: #222;
 }
  
-label:hover {
-  background: #ddca7e;
-  color: #fff;
-  cursor: pointer;
+input#lightswitch:checked + .main h2 {
+  color: #ddca7e;
 }
  
-input#lightswitch {
-   position: absolute;
-   top: -9999px;
-   left: -9999px;
+input#lightswitch:checked + .main h2:after {
+  content: " Off"
+}
+ 
+input#lightswitch:checked + .main p {
+  color: #aaa;
+}
+ 
+input#lightswitch:checked + .main > .headerimage {
+  background: url(http://lorempixum.com/900/400/city/4);
+  border: 8px solid #fff;
 }
