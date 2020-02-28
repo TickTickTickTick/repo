@@ -43,15 +43,14 @@ h2:before {
 
 /*Feature Paragraphs*/
 .features {
-  width: 940px;
+  width: 780px;
   margin: 0 auto 30px auto;
 }
 
 .features p {
-  width: 33.33%;
-  float: left;
-  padding: 0 20px;
-  font: 13px/1.5 Helvetica, Arial, sans-serif;
+font-size: 1.5em;
+line-height: 1.4em;
+color: #333;
 }
 
 .last {
@@ -62,14 +61,6 @@ h2:before {
   content: "";
   display: table;
   clear: both;
-}
-
-/*Big Photo*/
-.headerimage {
-  height: 400px;
-  width: 900px;
-  margin: 0 auto;
-  background: url(http://lorempixum.com/900/400/city/3);
 }
 
 /*Light Switch*/
@@ -118,5 +109,24 @@ input#lightswitch:checked + .main p {
 input#lightswitch:checked + .main > .headerimage {
   background: url(http://lorempixum.com/900/400/city/4);
   border: 8px solid #fff;
+}
+
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul, footer ul {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    list-style: none;
+    font-weight: bold;
+}
+footer {
+    font-size: .8em;
+}
+footer {
+    border-top: 1px solid 
+    #d5d5d5;
+    font-size: .8em;
 }
         
